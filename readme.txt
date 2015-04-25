@@ -1,8 +1,8 @@
 === WordCamp Custom Fields for WP-API ===
 Contributors: romuloctba
 Tags: WP-API, JSON, WordCamp
-Requires at least: 4.1
-Tested up to: 4.0
+Requires at least: 3.8
+Tested up to: 4.2
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,6 +12,8 @@ This plugin hooks into WP-API and adds the Session Info custom fields to the out
 == Description ==
 
 This plugin hooks into WP-API and adds the Session Info custom fields to the output.
+
+Needless to say, it only will work if WP-API is installed and active, since the hook used is from it.
 
 They will be available in the outputed JSON as: 
 
