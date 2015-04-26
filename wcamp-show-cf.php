@@ -16,7 +16,9 @@ function json_api_prepare_post( $post_response, $post, $context ) {
   $field['minutes']= get_post_meta( $post['ID'], 'wcpt-session-minutes', true );
   $field['meridiem'] = get_post_meta( $post['ID'], 'wcpt-session-meridiem', true );
   
-  $post_response['session-info'] = $field;
+  if ( !empty( array_filter($field) ) ) {
+	  $post_response['session-info'] = $field;
+  };
 
   return $post_response;
 }
