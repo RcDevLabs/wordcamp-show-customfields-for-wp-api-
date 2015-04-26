@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WordCamp Sessions Custom Fields into WP-API
-Plugin URI: http://github.com
+Plugin URI: https://github.com/RcDevLabs/wordcamp-show-customfields-for-wp-api-
 Description: This plugins hooks into WP-API to show wcpt-session-date, wcpt-session-hour, wcpt-session-minutes and wcpt-session-meridiem
 Version: 1.0.0
 Author: RCDev
