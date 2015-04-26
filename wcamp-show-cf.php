@@ -12,7 +12,7 @@ Author URI: http://rcdevlabs.github.io
 function json_api_prepare_post( $post_response, $post, $context ) {
   
   $field['date'] = get_post_meta( $post['ID'], 'wcpt-session-date', true );
-  $field['hour'] =get_post_meta( $post['ID'], 'wcpt-session-hour', true );
+  $field['hour'] = get_post_meta( $post['ID'], 'wcpt-session-hour', true );
   $field['minutes']= get_post_meta( $post['ID'], 'wcpt-session-minutes', true );
   $field['meridiem'] = get_post_meta( $post['ID'], 'wcpt-session-meridiem', true );
   
